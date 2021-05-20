@@ -20,7 +20,7 @@ This is a new and improved version of my portfolio made with React. The toughest
 [Repo](https://github.com/VHarris113/react-portfolio2)
 
 ## Website
-[Website](https://vharris113.github.io/react-portfolio2/)
+[Website](https://vharris113.github.io/vharris-portfolio2/)
 
 ## Installation
 `git clone git@github.com:VHarris113/react-portfolio2.git`
