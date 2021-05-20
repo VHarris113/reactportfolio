@@ -15,7 +15,7 @@
 
 ## Description
 This is a new and improved version of my portfolio made with React. The toughest challenge was using react in this endeavour. It was something I've been struggling with since day one, so I'm glad I can showcase what I've learned and overcome with this new portfolio. It's still a work in progress of course.
-![Gif]()
+![Gif](https://github.com/VHarris113/react-portfolio2/blob/b218ed85dbb64f224b4ba2e7f3d5e20943f691c3/images/app.gif)
 ## Repository
 [Repo](https://github.com/VHarris113/react-portfolio2)
 
