@@ -5,7 +5,7 @@ import Content from "../components/Content";
 function AboutPage(props) {
     return (
         <div>
-            <Hero title={props.children} />
+            <Hero title={props.title} />
             <Content>
             <p>Hi! My name is Veronica and I'm a developer. I specialize in a lot of unique skills that would be suitable for what you're looking for. I live in the Northern Atlanta area and am ready to be the newest member of your team. Above are the links where you can contact me and even witness some of my work and specialties below.</p>
 
