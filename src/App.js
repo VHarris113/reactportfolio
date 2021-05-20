@@ -16,9 +16,9 @@ class App extends React.Component {
     super(props);
     this.state = {
       title: "Veronica Harris",
-      // path: "/vharris-portfolio2",
+      path: "https://vharris113.github.io",
       headerLinks: [
-        { title: "Home", path: "https://vharris113.github.io/vharris-portfolio2/" },
+        { title: "Home", path: "/" },
         { title: "About Me", path: "/about" },
         { title: "Contact Me", path: "/contact" }
       ],
@@ -38,7 +38,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
@@ -47,14 +47,14 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="https://vharris113.github.io/vharris-portfolio2/">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About Me</Link>
                 <Link className="nav-link" to="/contact">Contact Me</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="https://vharris113.github.io/vharris-portfolio2/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/" exact component={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
