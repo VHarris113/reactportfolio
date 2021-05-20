@@ -1,7 +1,7 @@
 
-## Title: New React Portfolio
+# Title: New React Portfolio
 
-##Table of Contents
+## Table of Contents
 - [Description](#description)
 - [Repository](#repository)
 - [Website](#website)
