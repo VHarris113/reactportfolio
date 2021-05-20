@@ -21,7 +21,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: "PokeTrade",
                     subTitle: "The Card Trading Site",
-                    imgSrc: "poketradeio",
+                    imgSrc: poketradeio,
                     link: "https://vharris113.github.io/poketrade/",
                     repo: "https://github.com/VHarris113/poketrade",
                     selected: false
@@ -30,7 +30,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: "Dungeon Maintenance",
                     subTitle: "A Bag of Holding for ALL Things D&D",
-                    imgSrc: "dunmain",
+                    imgSrc: dunmain,
                     link: "https://tranquil-castle-20966.herokuapp.com/",
                     repo: "https://github.com/VHarris113/dungeon-maintenance",
                     selected: false
@@ -39,7 +39,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: "E-Commerce Backend",
                     subTitle: "Keeping track of sales and inventory",
-                    imgSrc: "ecommerce2",
+                    imgSrc: ecommerce2,
                     repo: "https://github.com/VHarris113/e-commerce-backend",
                     selected: false
                 },
@@ -47,7 +47,7 @@ class Carousel extends React.Component {
                     id: 3,
                     title: "Fitness Tracker",
                     subTitle: "Tracking Personal Fitness",
-                    imgSrc: "fitnesstracker",
+                    imgSrc: fitnesstracker,
                     link: "https://vast-meadow-49586.herokuapp.com/",
                     repo: "https://github.com/VHarris113/fitness-tracker",
                     selected: false
@@ -56,7 +56,7 @@ class Carousel extends React.Component {
                     id: 4,
                     title: "ReadMe Generator",
                     subTitle: "Helping Keep Coding Presentable",
-                    imgSrc: "howtoreadme",
+                    imgSrc: howtoreadme,
                     repo: "https://github.com/VHarris113/readme-generator",
                     selected: false
                 },
@@ -64,7 +64,7 @@ class Carousel extends React.Component {
                     id: 5,
                     title: "Note Taker",
                     subTitle: "Keeping Track of Notes",
-                    imgSrc: "notetaker",
+                    imgSrc: notetaker,
                     link: "https://notetaker-ex.herokuapp.com/",
                     repo: "https://github.com/VHarris113/note-taker",
                     selected: false
@@ -91,7 +91,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }
 
