@@ -5,7 +5,8 @@ function Logo() {
     console.log(logo);
     return(
         <div className="App">
-            <img src={logo} alt="logoimage" to="https://vharris113.github.io/vharris-portfolio2/#/" height={50} width={50} />
+            <img src={logo} alt="logoimage" height={50} width={50} />
+        {/* Need to create this into a link to the homepage*/}
         </div>
     );
 }

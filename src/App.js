@@ -43,13 +43,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Logo />
-            <Navbar.Brand>
-            </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -61,7 +59,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact component={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/" exact component={() => <HomePage title={this.state.home.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/myprojects" render={() => <ProjectPage title={this.state.contact.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />

@@ -1,15 +1,13 @@
 import React from "react";
 import Typist from "react-typist";
 import "react-bootstrap";
-import background from "../assets/gif/background";
+
 
 // import Hero from "../components/Hero";
 
-function HomePage(props) {
+function HomePage() {
     return (
-        <div style={{
-            backgroundImage: `url(${background})`
-        }}>
+        <div>
             <Typist>
                     <span>Hello!</span>
                 <Typist.Backspace count={6} delay={500} />
