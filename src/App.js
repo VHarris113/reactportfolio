@@ -43,10 +43,11 @@ class App extends React.Component {
 
   render() {
     return (
+    
       <Router basename="/">
         <Container className="p-0" fluid={true}>
 
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar bg="transparent" expand="lg">
             <Logo />
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
@@ -64,8 +65,9 @@ class App extends React.Component {
           <Route path="/myprojects" render={() => <ProjectPage title={this.state.contact.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
-          <Footer />
+        
         </Container>
+        <Footer />
       </Router>
     )
   }
