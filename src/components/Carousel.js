@@ -2,9 +2,9 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import poketradeio from "../assets/img/poketradeio.png";
+import poketradeio from "../assets/gif/poketrade.gif";
 import ecommerce2 from "../assets/gif/ecommerce2.gif";
-import dunmain from "../assets/img/Dunmain.jpg";
+import dunmain from "../assets/gif/dungeonmaintence.gif";
 import fitnesstracker from "../assets/gif/fitnesstracker.gif";
 import howtoreadme from "../assets/gif/howtoreadme.gif";
 import notetaker from "../assets/gif/notetaker.gif";
