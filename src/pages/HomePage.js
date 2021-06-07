@@ -1,12 +1,14 @@
 import React from "react";
 import Typist from "react-typist";
+import "react-bootstrap";
+import background from "../assets/gif/background";
 
 // import Hero from "../components/Hero";
 
 function HomePage(props) {
     return (
         <div style={{
-            backgroundImage: `url("https://drive.google.com/file/d/1iIkT6rp8vjUbC3B8RRPsYp9csbZOmmxU/view?usp=sharing")`
+            backgroundImage: `url(${background})`
         }}>
             <Typist>
                     <span>Hello!</span>
