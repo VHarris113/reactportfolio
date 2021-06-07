@@ -1,6 +1,8 @@
-import React from "react";
+import React, { Compontent } from "react";
+import Typist from "react-typist";
 
 import Hero from "../components/Hero";
+// import Carousel from "../components/Carousel"
 
 function HomePage(props) {
     return (
