@@ -25,9 +25,7 @@ class App extends React.Component {
         { title: "My Projects", path: "/myprojects" }
       ],
       home: {
-        title: "Design with Purpose",
-        subTitle: "Different Projects Lorem Ipsum",
-        text: "Checkout my projects below!"
+        title: "Home"
       },
       about: {
         title: "About Me"
@@ -43,11 +41,10 @@ class App extends React.Component {
 
   render() {
     return (
-    
       <Router basename="/">
         <Container className="p-0" fluid={true}>
 
-          <Navbar bg="transparent" expand="lg">
+          <Navbar style={{font: "red"}} bg="transparent" expand="lg">
             <Logo />
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
