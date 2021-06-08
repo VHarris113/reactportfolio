@@ -1,7 +1,7 @@
 import React from "react";
 import Typist from "react-typist";
 import "react-bootstrap";
-import Background from "../assets/img/techbackground.jpg"
+// import Background from "../assets/img/techbackground.jpg"
 import "./home.css";
 // import Hero from "../components/Hero";
 
