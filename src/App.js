@@ -8,7 +8,6 @@ import Logo from "./components/Logo";
 // import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
 import ProjectPage from "./pages/ProjectPage";
 
 class App extends React.Component {
@@ -21,7 +20,6 @@ class App extends React.Component {
       headerLinks: [
         { title: "Home", path: "/" },
         { title: "About Me", path: "/about" },
-        { title: "Contact Me", path: "/contact" },
         { title: "My Projects", path: "/myprojects" }
       ],
       home: {
@@ -29,9 +27,6 @@ class App extends React.Component {
       },
       about: {
         title: "About Me"
-      },
-      contact: {
-        title: "Contact Me"
       },
       projects: {
         title: "My Projects"
@@ -51,7 +46,6 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link style={{color: "white", hover: "black"}} className="nav-link" to="/">Home</Link>
                 <Link style={{color: "white"}} className="nav-link" to="/about">About Me</Link>
-                <Link style={{color: "white"}} className="nav-link" to="/contact">Contact Me</Link>
                 <Link style={{color: "white"}} className="nav-link" to="/myprojects">My Projects</Link>
               </Nav>
             </Navbar.Collapse>
@@ -60,8 +54,6 @@ class App extends React.Component {
           <Route path="/" exact component={() => <HomePage title={this.state.home.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/myprojects" render={() => <ProjectPage title={this.state.contact.title} />} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-
         
         {/* </Container> */}
         {/* <Footer /> */}
