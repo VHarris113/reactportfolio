@@ -10,7 +10,7 @@ import howtoreadme from "../assets/gif/howtoreadme.gif";
 import notetaker from "../assets/gif/notetaker.gif";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-
+import "./style.css";
 
 class Carousel extends React.Component {
     constructor(props){
@@ -76,11 +76,11 @@ class Carousel extends React.Component {
     handleCardClick = (id, card) => {
         let items = [...this.state.items];
 
-        items[id].selected = items[id].selected ? false : true;
+        items[id].selected = items[id].selected ? true : true;
 
         items.forEach(item => {
             if(item.id !== id) {
-                item.selected = false;
+                item.selected = true;
             }
         });
 
@@ -98,6 +98,10 @@ class Carousel extends React.Component {
     render() {
         return (
             <Container fluid={true}>
+                <div>
+                    <h1>My Projects</h1>
+                    <p>Please select one to find out more information. See my contact page as well to be linked to my GitHub for more projects I have completed.</p>
+                </div>
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>

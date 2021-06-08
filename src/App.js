@@ -1,11 +1,11 @@
 import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
-import Container from "react-bootstrap/Container"
+// import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "./components/Logo";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -42,17 +42,17 @@ class App extends React.Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-        <Container className="p-0" fluid={true}>
+        {/* <Container className="p-0" fluid={true}> */}
 
-          <Navbar style={{font: "red"}} bg="transparent" expand="lg">
+          <Navbar bg="transparent" expand="lg">
             <Logo />
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About Me</Link>
-                <Link className="nav-link" to="/contact">Contact Me</Link>
-                <Link className="nav-link" to="/myprojects">My Projects</Link>
+                <Link style={{color: "white", hover: "black"}} className="nav-link" to="/">Home</Link>
+                <Link style={{color: "white"}} className="nav-link" to="/about">About Me</Link>
+                <Link style={{color: "white"}} className="nav-link" to="/contact">Contact Me</Link>
+                <Link style={{color: "white"}} className="nav-link" to="/myprojects">My Projects</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -63,8 +63,8 @@ class App extends React.Component {
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
         
-        </Container>
-        <Footer />
+        {/* </Container> */}
+        {/* <Footer /> */}
       </Router>
     )
   }

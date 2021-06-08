@@ -2,7 +2,7 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Content from "../components/Content";
 // import Axios from "axios";
 
@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
     render() {
         return (
             <div>
-                <Hero title={this.props.title} />
+                {/* <Hero title={this.props.title} /> */}
 
                 <Content>
                     <Form onSubmit={this.handleSubmit}>

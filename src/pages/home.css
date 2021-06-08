@@ -1,13 +1,16 @@
 h1 {
     font-size: 5rem;
+    color: #FFFFFF
 }
 
-h2 {
-    font-size: 3rem;
+.glow {
+    color: #18051a;
+    text-shadow: 3px 3px 6px #FFFFFF;
 }
 
 .homediv {
     display: flex;
+    min-height: 90vh;
     justify-content: center;
     align-items: center;
 }
