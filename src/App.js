@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
 import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar";
@@ -17,7 +17,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       title: "Veronica Harris",
-      path: "/",
+      path: "https://vharris113.github.io",
       headerLinks: [
         { title: "Home", path: "/" },
         { title: "About Me", path: "/about" },
