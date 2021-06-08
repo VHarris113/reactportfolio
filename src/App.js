@@ -1,11 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
-// import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "./components/Logo";
-// import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
@@ -37,7 +35,6 @@ class App extends React.Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-        {/* <Container className="p-0" fluid={true}> */}
 
           <Navbar bg="transparent" expand="lg">
             <Logo />
@@ -53,10 +50,8 @@ class App extends React.Component {
 
           <Route path="/" exact component={() => <HomePage title={this.state.home.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/myprojects" render={() => <ProjectPage title={this.state.contact.title} />} />
+          <Route path="/myprojects" render={() => <ProjectPage title={this.state.title} />} />
         
-        {/* </Container> */}
-        {/* <Footer /> */}
       </Router>
     )
   }
