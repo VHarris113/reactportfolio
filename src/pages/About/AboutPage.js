@@ -1,6 +1,6 @@
 import React from "react";
 // import Hero from "../components/Hero";
-import Content from "../components/Content";
+import Content from "../../components/Content";
 // import Links from "../components/Links";
 import { BrowserRouter as Link } from "react-router-dom";
 

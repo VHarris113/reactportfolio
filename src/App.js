@@ -1,12 +1,12 @@
 import React from "react";
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "./components/Logo";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ProjectPage from "./pages/ProjectPage";
+import HomePage from "./pages/Home/HomePage";
+import AboutPage from "./pages/About/AboutPage";
+import ProjectPage from "./pages/Projects/ProjectPage";
 
 class App extends React.Component {
 
@@ -41,7 +41,7 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link style={{color: "white", hover: "black"}} className="nav-link" to="/">Home</Link>
+                <Link style={{color: "white", hover: "lavender"}} className="nav-link" to="/">Home</Link>
                 <Link style={{color: "white"}} className="nav-link" to="/about">About Me</Link>
                 <Link style={{color: "white"}} className="nav-link" to="/myprojects">My Projects</Link>
               </Nav>
