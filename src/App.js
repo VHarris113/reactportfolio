@@ -7,6 +7,7 @@ import Logo from "./components/Logo";
 import HomePage from "./pages/Home/HomePage";
 import AboutPage from "./pages/About/AboutPage";
 import ProjectPage from "./pages/Projects/ProjectPage";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
 
@@ -34,9 +35,10 @@ class App extends React.Component {
 
   render() {
     return (
+      <div>
       <Router basename={process.env.PUBLIC_URL}>
 
-          <Navbar bg="transparent" expand="lg">
+          <Navbar className="color">
             <Logo />
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
@@ -51,8 +53,9 @@ class App extends React.Component {
           <Route path="/" exact component={() => <HomePage title={this.state.home.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/myprojects" render={() => <ProjectPage title={this.state.title} />} />
-        
       </Router>
+      <Footer />
+      </div>
     )
   }
 };
