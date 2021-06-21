@@ -10,7 +10,7 @@ import howtoreadme from "../assets/gif/howtoreadme.gif";
 import notetaker from "../assets/gif/notetaker.gif";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import "./style.css";
+import "../assets/styles/style.css";
 
 class Carousel extends React.Component {
     constructor(props){
