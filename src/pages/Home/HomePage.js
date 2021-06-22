@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "../../components/Contact"
+import Contact from "../../components/Contact/index";
 import Container from "react-bootstrap/Container";
 import Typist from "react-typist";
 import Row from "react-bootstrap/Row";
@@ -15,18 +15,22 @@ function HomePage() {
                         <Typist cursor={{ show: false }}>
                             <h1 className="header">Hello!
                             <Typist.Backspace count={6} delay={1000} />
-                            My name is Veronica Harris
+                             My name is Veronica Harris
                             <Typist.Backspace count={27} delay={3000} />
-                            Nice to meet you! <span className="happy">:D</span>
+                             Nice to meet you! :D
                             <Typist.Backspace count={2} delay={500} />
-                            <span className="happy">;D</span>
+                            ;D
                             <Typist.Backspace count={20} delay={1000} />
                             <span className="title">I am a Full Stack Web Developer</span></h1>
                         </Typist>
+                        <br />
+                        <div className="hcon">
+                            <Contact />
+                        </div>
+
                     </Col>
                 </Row>
             </Container>
-            <Contact />
         </div>
     )
 }

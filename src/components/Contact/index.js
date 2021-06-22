@@ -9,7 +9,7 @@ import Resume from "./images/resume.png";
 function Contact() {
     return (
         <div className="contact-box">
-            <Row>
+            <Row className="w3-animate-opacity">
                 <a href="https://github.com/VHarris113" rel="noreferrer" target="_blank"><img src={GitHub} alt="GitHub" width="50" height="50" /></a>
                 <a href="https://www.linkedin.com/in/vharris113/" rel="noreferrer" target="_blank"><img src={LinkedIn} alt="LinkedIn" width="50" height="50" /></a>
                 <a href="mailto:veronica.n.harris92@gmail.com" rel="noreferrer" target="_blank"><img src={Email} alt="Mail" width="50" height="50" /></a>
