@@ -1,0 +1,13 @@
+.contact-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: #251423;
+    padding-top: 20rem;
+    width: 15rem;
+    height: 2rem;
+    padding: 1rem;
+    position: relative;
+}
