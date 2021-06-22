@@ -1,5 +1,6 @@
 .container {
   /* font-family: 'Dancing Script', cursive; */
+  font-weight: 500;
   display: flex;
   min-height: 90vh;
   justify-content: center;
@@ -20,6 +21,9 @@
 }
 
 .hcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: fadeIn 31s;
 }
 
