@@ -36,6 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <div className="first">
       <Router basename={process.env.PUBLIC_URL}>
 
           <Navbar className="color">
@@ -54,6 +55,7 @@ class App extends React.Component {
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/myprojects" render={() => <ProjectPage title={this.state.title} />} />
       </Router>
+      </div>
       <Footer />
       </div>
     )

@@ -1,0 +1,15 @@
+.infocard {
+    background-color: #251423;
+}
+
+.cardarea {
+    display: flex;
+    justify-content: space-around;
+    background-color: #251423
+}
+
+.projecth1 {
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+}

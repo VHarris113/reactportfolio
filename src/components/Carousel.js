@@ -1,6 +1,7 @@
 import React from "react";
 
 import Card from "../components/Card";
+import "../../src/assets/styles/carousel.css";
 
 import poketradeio from "../assets/gif/poketrade.gif";
 import ecommerce2 from "../assets/gif/ecommerce2.gif";
@@ -80,7 +81,7 @@ class Carousel extends React.Component {
 
         items.forEach(item => {
             if(item.id !== id) {
-                item.selected = true;
+                item.selected = false;
             }
         });
 
@@ -99,10 +100,10 @@ class Carousel extends React.Component {
         return (
             <Container fluid={true}>
                 <div>
-                    <h1>My Projects</h1>
-                    <p>Please select one to find out more information. See my contact page as well to be linked to my GitHub for more projects I have completed.</p>
+                    <h1 className="projecth1">My Projects</h1>
+                    <h3 className="infocard">Please see below my more recent projects. These are some of my favorite ones that I've completed. Check out my About Me page for my Github information. Thank you!</h3>
                 </div>
-                <Row className="justify-content-around">
+                <Row className="cardarea">
                     {this.makeItems(this.state.items)}
                 </Row>
             </Container>
