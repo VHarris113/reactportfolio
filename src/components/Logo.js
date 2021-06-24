@@ -6,7 +6,7 @@ function Logo() {
     console.log(logo);
     return(
         <div className="App">
-            <a href="/"><img src={logo} alt="logoimage" to="/" height={50} width={50} /></a>
+            <a href="https://vharris113.github.io/vharris-portfolio/"><img src={logo} alt="logoimage" to="/" height={50} width={50} /></a>
         </div>
     );
 }
