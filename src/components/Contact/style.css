@@ -1,4 +1,9 @@
+* {
+    background-color: transparent;
+}
+
 .contact-box {
+    background-color: transparent;
     display: block;
     /* justify-content: center;
     align-items: center; */
@@ -14,7 +19,10 @@
 }
 
 .talk {
+    background-color: transparent;
     text-align: center;
     margin-left: -5rem;
     margin-right: -5rem;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000
 }
