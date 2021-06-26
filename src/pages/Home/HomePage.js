@@ -24,17 +24,17 @@ function HomePage() {
                             Back-End Web Development
                             <Typist.Backspace count={24} delay={700} />
                             Front-End Web Development
-                            <Typist.Backspace count={25} delay={600} />
+                            <Typist.Backspace count={25} delay={500} />
                             Data Analysis
-                            <Typist.Backspace count={13} delay={500} />
+                            <Typist.Backspace count={13} delay={400} />
                             Code Refractoring
-                            <Typist.Backspace count={17} delay={400} />
+                            <Typist.Backspace count={17} delay={300} />
                             Software Development
-                            <Typist.Backspace count={20} delay={300} />
+                            <Typist.Backspace count={20} delay={200} />
                             Database Design
-                            <Typist.Backspace count={15} delay={200} />
+                            <Typist.Backspace count={15} delay={100} />
                             MERN Stack Development
-                            <Typist.Backspace count={22} delay={100} />
+                            <Typist.Backspace count={22} delay={50} />
                             <span className="title">I am a Full Stack Web Developer</span></h1>
                         </Typist>
                         <br className="break" />

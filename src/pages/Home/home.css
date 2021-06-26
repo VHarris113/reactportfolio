@@ -1,5 +1,6 @@
 * {
   background-color: transparent;
+  color: #FFFFFF;
 }
 
 .homediv {
@@ -59,13 +60,13 @@ background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeIn 79s;
+  animation: fadeIn 55s;
 }
 
 @keyframes fadeIn {
     0% {opacity:0;}
-    50% {opacity:1;}
-    100% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:5;}
 }
 
 .title {

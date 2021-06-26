@@ -1,5 +1,6 @@
 * {
   background-color: transparent;
+
 }
 
 .first {
@@ -10,10 +11,31 @@
   background-color: #2b1f2a;
 }
 
-.nav-link {
-  font-weight: bolder;
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  display: inline;
+  padding-right: 10px;
+  color: #FFFFFF;
   background-color: #2b1f2a;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(178, 72, 199), 0 0 5px rgb(61, 5, 68);
+  font-weight: 700;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #791099
+}
+
+.link:hover::after {
+  content: "";
+  display: block;
+  width: 20px;
+  color: #791099;
+  border-bottom: 3px solid;
+  margin: 0 auto;
 }
 
 .inside {
