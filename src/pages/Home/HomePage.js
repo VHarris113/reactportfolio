@@ -8,22 +8,36 @@ import "./home.css";
 
 function HomePage() {
     return (
-        <div>
-            <Container classname="container">
-                <Row className="justify-content-center">
-                    <Col>
-                        <Typist cursor={{ show: false }}>
+        <div className="homediv">
+            <Container className="container">
+                <Row className="row">
+                    <Col className="col">
+                        <Typist className="myTypist" cursor={{ show: false }}>
                             <h1 className="header">Hello!
-                            <Typist.Backspace count={6} delay={1000} />
+                            <Typist.Backspace count={6} delay={200} />
                              My name is Veronica Harris
-                            <Typist.Backspace count={27} delay={3000} />
-                             Nice to meet you! :D
-                            <Typist.Backspace count={2} delay={500} />
-                            ;D
-                            <Typist.Backspace count={20} delay={1000} />
+                            <Typist.Backspace count={27} delay={1000} />
+                             I can do a number of things:
+                            <Typist.Backspace count={28} delay={900} />
+                            Web Design
+                            <Typist.Backspace count={10} delay={800} />
+                            Back-End Web Development
+                            <Typist.Backspace count={24} delay={700} />
+                            Front-End Web Development
+                            <Typist.Backspace count={25} delay={600} />
+                            Data Analysis
+                            <Typist.Backspace count={13} delay={500} />
+                            Code Refractoring
+                            <Typist.Backspace count={17} delay={400} />
+                            Software Development
+                            <Typist.Backspace count={20} delay={300} />
+                            Database Design
+                            <Typist.Backspace count={15} delay={200} />
+                            MERN Stack Development
+                            <Typist.Backspace count={22} delay={100} />
                             <span className="title">I am a Full Stack Web Developer</span></h1>
                         </Typist>
-                        <br />
+                        <br className="break" />
                         <div className="hcon">
                             <Contact />
                         </div>

@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="first">
+        <div>
       <Router basename={process.env.PUBLIC_URL}>
 
           <Navbar className="color">

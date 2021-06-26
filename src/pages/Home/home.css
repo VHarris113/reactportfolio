@@ -1,3 +1,13 @@
+* {
+  background-color: transparent;
+}
+
+.homediv {
+  background-image: url("../../assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   /* font-family: 'Dancing Script', cursive; */
   font-weight: 500;
@@ -24,13 +34,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeIn 31s;
+  animation: fadeIn 79s;
 }
 
 @keyframes fadeIn {
     0% {opacity:0;}
     50% {opacity:0;}
-    75% {opacity:1;}
     100% {opacity:1;}
 }
 
