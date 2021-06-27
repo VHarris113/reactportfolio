@@ -20,21 +20,21 @@ function HomePage() {
                             What can I help you with?
                             <Typist.Backspace count={25} delay={900} />
                             Web Design
-                            <Typist.Backspace count={10} delay={800} />
+                            <Typist.Backspace count={10} delay={600} />
                             Back-End Web Development
-                            <Typist.Backspace count={24} delay={600} />
+                            <Typist.Backspace count={24} delay={400} />
                             Front-End Web Development
-                            <Typist.Backspace count={25} delay={400} />
+                            <Typist.Backspace count={25} delay={200} />
                             Data Analysis
                             <Typist.Backspace count={13} delay={100} />
                             Code Refractoring
-                            <Typist.Backspace count={17} delay={100} />
+                            <Typist.Backspace count={17} delay={50} />
                             Software Development
-                            <Typist.Backspace count={20} delay={100} />
+                            <Typist.Backspace count={20} delay={50} />
                             Database Design
-                            <Typist.Backspace count={15} delay={100} />
+                            <Typist.Backspace count={15} delay={50} />
                             MERN Stack Development
-                            <Typist.Backspace count={22} delay={50} />
+                            <Typist.Backspace count={22} delay={25} />
                             <span className="title">I am a Full Stack Web Developer</span></h1>
                         </Typist>
                         <br className="break" />
