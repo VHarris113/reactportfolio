@@ -60,13 +60,14 @@ background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeIn 55s;
+  animation-delay: 60s;
+  animation: fadeIn 72s;
 }
 
 @keyframes fadeIn {
     0% {opacity:0;}
     50% {opacity:0;}
-    100% {opacity:5;}
+    100% {opacity:1;}
 }
 
 .title {

@@ -1,3 +1,57 @@
+hr {
+    border-top: 5rem solid black;
+}
+
 .project {
     padding-bottom: 5rem;
+}
+
+.summary {
+    background-color: #251423;
+}
+
+.colboi {
+    max-width: 45%;
+    margin-left: 20px;
+}
+
+.importantheaders {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.second {
+    text-align: center;
+}
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    background-color: #FFFFFFFF;
+    color: #00000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: 70px;
+}
+
+.projectcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    min-height: 50vh;
+}
+
+.projpic {
+    padding-right: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pics {
+    background-color: #FFFFFFFF;
+}
+
+.noback {
+    background-color: #FFFFFFFF
 }
