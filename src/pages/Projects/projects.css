@@ -1,18 +1,22 @@
-hr {
-    border-top: 5rem solid black;
-}
-
 .project {
     padding-bottom: 5rem;
 }
 
-.summary {
+.summaryheader {
     background-color: #251423;
 }
 
+.summary {
+    background-color: #FFFFFFFF;
+    color: #000000;
+    width: 75%;
+}
+
 .colboi {
+    display: block;
     max-width: 45%;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .importantheaders {
@@ -24,14 +28,23 @@ hr {
     text-align: center;
 }
 
+.project1 h1, .project1 h2, .project1 h3,
+.project2 h1, .project2 h2, .project2 h3,
+.project3 h1, .project3 h2, .project3 h3,
+.project4 h1, .project4 h2, .project4 h3,
+.project5 h1, .project5 h2, .project5 h3,
+.project6 h1, .project6 h2, .project6 h3 {
+    background-color: #FFFFFFFF;
+    color: #000000;
+}
+
 .project1, .project2, .project3, .project4, .project5, .project6 {
     background-color: #FFFFFFFF;
     color: #00000000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: -15px;
-    margin-left: 70px;
+   
 }
 
 .projectcon {
@@ -43,15 +56,28 @@ hr {
 }
 
 .projpic {
-    padding-right: -20px;
+    background-color: #FFFFFFFF;
     display: flex;
     justify-content: center;
+    padding-right: -10px;
+    padding-bottom: 25px;
 }
 
 .pics {
     background-color: #FFFFFFFF;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .noback {
     background-color: #FFFFFFFF
+}
+
+.divstuff {
+    display: flex;
+    justify-content: center;
+}
+
+.webrep {
+    text-decoration: none;
 }
