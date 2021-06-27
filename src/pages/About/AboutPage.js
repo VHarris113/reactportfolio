@@ -1,8 +1,24 @@
 import React from "react";
 import "./about.css";
 import Contact from "../../components/Contact/index";
-import { Container, Col, Row, ProgressBar } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import Picture from "../../assets/img/profilepic.jpg";
+
+import css from "../img/css.png";
+import handlebars from "../img/handlebars.png";
+import heroku from "../img/heroku.png";
+import html from "../img/html.png";
+import index from "../img/index.jpg";
+import insomnia from "../img/insomnia.png";
+import javascript from "../img/javascript.png";
+import mongo from "../img/mongo.png";
+import mongoose from "../img/mongoose.jpg";
+import mysql from "../img/mysql.png";
+import nodejs from "../img/nodejs.png";
+import reactpic from "../img/react.png";
+import bootstrap from "../img/bootstrap.png";
+import jquery from "../img/jquery.png";
+import npm from "../img/npm.png";
 
 function AboutPage() {
     return (
@@ -15,20 +31,30 @@ function AboutPage() {
                    </Col>
                    <Col>
                         <div>
-                            <h2 className="bar">Coding Progress Bar</h2>
-                            <ProgressBar striped variant="info" animated now={99} label={`HTML 99%`} />
-                            <br />
-                            <ProgressBar striped variant="info" animated now={100} label={`CSS 100%`} />
-                            <br />
-                            <ProgressBar striped variant="info" animated now={80} label={`JavaScript 80%`} />
-                            <br />
-                            <ProgressBar striped variant="info" animated now={75} label={`React 75%`} />
-                            <br />
-                            <ProgressBar striped variant="info" animated now={90} label={`MySQL 90%`} />
-                            <br />
-                            <ProgressBar striped variant="info" animated now={85} label={`MongoDB 85%`} />
-                            <br />
-                            <ProgressBar striped variant="success" animated now={100} label={`Still Learning 100%`} />
+                            <h2 className="bar">Software Skill List:</h2>
+                            <Row>
+                                <Col>
+                                    <h3>Front End Software</h3>
+                                    <img src={javascript} alt="jspic" width="75" height="75" />
+                                    <img src={html} alt="htmlpic" width="75" height="75" />
+                                    <img src={css} alt="csspic" width="75" height="75" />
+                                    <img src={handlebars} alt="mustache" width="125" height="75" />
+                                    <img src={reactpic} alt="reactpic" width="75" height="75"/>
+                                    <img src={bootstrap} alt="bootpic" width="100" height="75" />
+                                    <img src={jquery} alt="jquerypic" width="75" height="75" />
+                                </Col>
+                                <Col>
+                                    <h3>Back End Software</h3>
+                                    <img src={heroku} alt="heroku" width="75" height="75" />
+                                    <img src={mongo} alt="mongopic" width="95" height="75" />
+                                    <img src={mongoose} alt="mongoosepic" width="125" height="75" />
+                                    <img src={index} alt="indexpic" width="75" height="65" />
+                                    <img src={mysql} alt="mysqlpic" width="75" height="75" />
+                                    <img src={insomnia} alt="insomniapic" width="75" height="75" />
+                                    <img src={nodejs} alt="nodepic" width="75" height="75" />
+                                    <img src={npm} alt="npmpic" width="75" height="75" />
+                                </Col>
+                            </Row>
                         </div>
                    </Col>
                     </Row>

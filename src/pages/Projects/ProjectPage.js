@@ -10,18 +10,18 @@ import fitness from "../../assets/gif/fitnesstracker.gif";
 import readme from "../../assets/gif/howtoreadme.gif";
 import notes from "../../assets/gif/notetaker.gif";
 
-import css from "./img/css.png";
-import handlebars from "./img/handlebars.png";
-import heroku from "./img/heroku.png";
-import html from "./img/html.png";
-import index from "./img/index.jpg";
-import insomnia from "./img/insomnia.png";
-import javascript from "./img/javascript.png";
-import mongo from "./img/mongo.png";
-import mongoose from "./img/mongoose.jpg";
-import mysql from "./img/mysql.png";
-import nodejs from "./img/nodejs.png";
-import reactpic from "./img/react.png";
+import css from "../img/css.png";
+import handlebars from "../img/handlebars.png";
+import heroku from "../img/heroku.png";
+import html from "../img/html.png";
+import index from "../img/index.jpg";
+import insomnia from "../img/insomnia.png";
+import javascript from "../img/javascript.png";
+import mongo from "../img/mongo.png";
+import mongoose from "../img/mongoose.jpg";
+import mysql from "../img/mysql.png";
+import nodejs from "../img/nodejs.png";
+import reactpic from "../img/react.png";
 
 function ProjectPage() {
     return (
