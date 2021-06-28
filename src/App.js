@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import "./App.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -44,14 +44,14 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <a href="https://vharris113.github.io/vharris-portfolio/" className="link" >Home</a>
+                {/* <a href="https://vharris113.github.io/vharris-portfolio/" className="link" >Home</a>
                 <br />
                 <a href="https://vharris113.github.io/vharris-portfolio/about" className="link">About Me</a>
                 <br />
-                <a href="https://vharris113.github.io/vharris-portfolio/myprojects" className="link">My Projects</a>
-                {/* <Link style={{ color: "white"}} className="nav-link" to="/">Home</Link>
-                <Link style={{ color: "white"}} className="nav-link" to="/about">About Me</Link>
-                <Link style={{ color: "white"}} className="nav-link" to="/myprojects">My Projects</Link> */}
+                <a href="https://vharris113.github.io/vharris-portfolio/myprojects" className="link">My Projects</a> */}
+                <Link className="link" to="/">Home</Link>
+                <Link className="link" to="/about">About Me</Link>
+                <Link className="link" to="/myprojects">My Projects</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

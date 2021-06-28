@@ -35,24 +35,24 @@ function AboutPage() {
                             <Row>
                                 <Col>
                                     <h3>Front End Software</h3>
-                                    <img src={javascript} alt="jspic" width="75" height="75" />
-                                    <img src={html} alt="htmlpic" width="75" height="75" />
-                                    <img src={css} alt="csspic" width="75" height="75" />
-                                    <img src={handlebars} alt="mustache" width="125" height="75" />
-                                    <img src={reactpic} alt="reactpic" width="75" height="75"/>
-                                    <img src={bootstrap} alt="bootpic" width="100" height="75" />
-                                    <img src={jquery} alt="jquerypic" width="75" height="75" />
+                                    <img className="icons" src={javascript} alt="jspic" width="75" height="75" />
+                                    <img className="icons" src={html} alt="htmlpic" width="75" height="75" />
+                                    <img className="icons" src={css} alt="csspic" width="75" height="75" />
+                                    <img className="icons" src={handlebars} alt="mustache" width="125" height="75" />
+                                    <img className="icons" src={reactpic} alt="reactpic" width="75" height="75"/>
+                                    <img className="icons" src={bootstrap} alt="bootpic" width="100" height="75" />
+                                    <img className="icons" src={jquery} alt="jquerypic" width="75" height="75" />
                                 </Col>
                                 <Col>
                                     <h3>Back End Software</h3>
-                                    <img src={heroku} alt="heroku" width="75" height="75" />
-                                    <img src={mongo} alt="mongopic" width="95" height="75" />
-                                    <img src={mongoose} alt="mongoosepic" width="125" height="75" />
-                                    <img src={index} alt="indexpic" width="75" height="65" />
-                                    <img src={mysql} alt="mysqlpic" width="75" height="75" />
-                                    <img src={insomnia} alt="insomniapic" width="75" height="75" />
-                                    <img src={nodejs} alt="nodepic" width="75" height="75" />
-                                    <img src={npm} alt="npmpic" width="75" height="75" />
+                                    <img className="icons" src={heroku} alt="heroku" width="75" height="75" />
+                                    <img className="icons" src={mongo} alt="mongopic" width="95" height="75" />
+                                    <img className="icons" src={mongoose} alt="mongoosepic" width="125" height="75" />
+                                    <img className="icons" src={index} alt="indexpic" width="75" height="65" />
+                                    <img className="icons" src={mysql} alt="mysqlpic" width="75" height="75" />
+                                    <img className="icons" src={insomnia} alt="insomniapic" width="75" height="75" />
+                                    <img className="icons" src={nodejs} alt="nodepic" width="75" height="75" />
+                                    <img className="icons" src={npm} alt="npmpic" width="75" height="75" />
                                 </Col>
                             </Row>
                         </div>
