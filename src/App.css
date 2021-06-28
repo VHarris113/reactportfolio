@@ -3,18 +3,15 @@
 
 }
 
-.first {
-  background-color: #221621;
-}
-
 .color {
   background-color: #2b1f2a;
+  position: fixed;
 }
 
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 .link {
   display: inline;

@@ -22,47 +22,46 @@ import npm from "../img/npm.png";
 
 function AboutPage() {
     return (
-        <Container>
-            <div className="aboutDiv">
-                <h1 className="aboutMe">About Me</h1>
-                   <Row>
-                   <Col>
-                   <p className="profile"><img src={Picture} className="profilepic" alt="profilepic" width="300"/>Hi! My name is Veronica and I'm a developer. I specialize in a lot of unique skills that would be suitable for what you're looking for. I live in the Northern Atlanta area and am ready to be the newest member of your team. I was able to provide a charge detailing a lot of my skills below. My different skills cultivated throughout my three month journey into web development and the software field in general. I learned a lot of interesting things in the time at boot camp. I am ready to also expand my knowledge. Please take a look, and note that link to my GitHub and LinkedIn are available as well as links to my professional email and a posting of my resume. Please let me know if you have any questions or concerns. Thank you so much for your time!</p>
-                   </Col>
-                   <Col>
-                        <div>
-                            <h2 className="bar">Software Skill List:</h2>
-                            <Row>
-                                <Col>
-                                    <h3>Front End Software</h3>
-                                    <img className="icons" src={javascript} alt="jspic" width="75" height="75" />
-                                    <img className="icons" src={html} alt="htmlpic" width="75" height="75" />
-                                    <img className="icons" src={css} alt="csspic" width="75" height="75" />
-                                    <img className="icons" src={handlebars} alt="mustache" width="125" height="75" />
-                                    <img className="icons" src={reactpic} alt="reactpic" width="75" height="75"/>
-                                    <img className="icons" src={bootstrap} alt="bootpic" width="100" height="75" />
-                                    <img className="icons" src={jquery} alt="jquerypic" width="75" height="75" />
-                                </Col>
-                                <Col>
-                                    <h3>Back End Software</h3>
-                                    <img className="icons" src={heroku} alt="heroku" width="75" height="75" />
-                                    <img className="icons" src={mongo} alt="mongopic" width="95" height="75" />
-                                    <img className="icons" src={mongoose} alt="mongoosepic" width="125" height="75" />
-                                    <img className="icons" src={index} alt="indexpic" width="75" height="65" />
-                                    <img className="icons" src={mysql} alt="mysqlpic" width="75" height="75" />
-                                    <img className="icons" src={insomnia} alt="insomniapic" width="75" height="75" />
-                                    <img className="icons" src={nodejs} alt="nodepic" width="75" height="75" />
-                                    <img className="icons" src={npm} alt="npmpic" width="75" height="75" />
-                                </Col>
-                            </Row>
-                        </div>
-                   </Col>
-                    </Row>
-                    <Row>
-                        <Contact />
-                    </Row>
+        <div className="aboutDiv">
+            <div>
+            <h1 className="aboutheader">About Me</h1>
             </div>
-        </Container>
+            <Container className="bio">
+                <Row>
+                <Col><img src={Picture} className="profilepic" alt="profilepic"/></Col>
+                <Col>
+                   <p className="profile">Hi! My name is Veronica and I'm a developer. I specialize in a lot of unique skills that would be suitable for what you're looking for. I live in the Northern Atlanta area and am ready to be the newest member of your team. I was able to provide a charge detailing a lot of my skills below. My different skills cultivated throughout my three month journey into web development and the software field in general. I learned a lot of interesting things in the time at boot camp. I am ready to also expand my knowledge. Please take a look, and note that link to my GitHub and LinkedIn are available as well as links to my professional email and a posting of my resume. Please let me know if you have any questions or concerns. Thank you so much for your time!</p>
+                   <p className="nobg">
+                       <Contact />
+                   </p>
+                   </Col>
+                   
+                </Row>
+            </Container>
+            <hr />
+            <div className="skills">
+                <h1>Skill List:</h1>
+                <h3>Front End Software</h3>
+                    <img className="icons" src={javascript} alt="jspic" width="75" height="75" />
+                    <img className="icons" src={html} alt="htmlpic" width="75" height="75" />
+                    <img className="icons" src={css} alt="csspic" width="75" height="75" />
+                    <img className="icons" src={handlebars} alt="mustache" width="125" height="75" />
+                    <img className="icons" src={reactpic} alt="reactpic" width="75" height="75"/>
+                    <img className="icons" src={bootstrap} alt="bootpic" width="100" height="75" />
+                    <img className="icons" src={jquery} alt="jquerypic" width="75" height="75" />
+                <br />            
+                <h3>Back End Software</h3>
+                    <img className="icons" src={heroku} alt="heroku" width="75" height="75" />
+                    <img className="icons" src={mongo} alt="mongopic" width="95" height="75" />
+                    <img className="icons" src={mongoose} alt="mongoosepic" width="125" height="75" />
+                    <img className="icons" src={index} alt="indexpic" width="75" height="65" />
+                    <img className="icons" src={mysql} alt="mysqlpic" width="75" height="75" />
+                    <img className="icons" src={insomnia} alt="insomniapic" width="75" height="75" />
+                    <img className="icons" src={nodejs} alt="nodepic" width="75" height="75" />
+                    <img className="icons" src={npm} alt="npmpic" width="75" height="75" />
+            </div>
+                          
+        </div>
     );
 }
 
